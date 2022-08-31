@@ -21,12 +21,10 @@
     "react-scripts": "^5.0.1"
   },
   "scripts": {
-    "dev": "react-scripts start",
-    "start": "serve -s build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "heroku-postbuild": "npm run build"
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -49,9 +47,9 @@
     "@testing-library/user-event": "^7.1.2",
     "apollo": "^2.30.2"
   },
-  "engines": {
-    "npm": "8.5.0"
-  },
+  "engines":{
+    "npm":"8.5.0"
+   },
   "main": "src/index.js",
   "author": "Raphael Terrier @R4ph-t",
   "license": "MIT"
